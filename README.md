@@ -16,7 +16,7 @@ yarn dev
 
 ### Packaging for Production
 
-To package the app for the local platform:
+Package the app:
 
 ```bash
 yarn make
