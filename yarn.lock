@@ -1704,6 +1704,13 @@
   dependencies:
     "@parcel/types" "2.0.0-nightly.617+eabbbecf"
 
+"@parcel/plugin@^2.0.0-alpha.3":
+  version "2.0.0-alpha.3"
+  resolved "https://registry.yarnpkg.com/@parcel/plugin/-/plugin-2.0.0-alpha.3.tgz#ff9215d0c522ff60692aca7ef6abaa95243f564a"
+  integrity sha512-2nfjd7ujL042gP7ssJ4JRyxEirp5Fuz+Vf4sk4aky3oWVuY9YmUqce0UNUMaIlh911xERo5uagy1jYOSa7gp6g==
+  dependencies:
+    "@parcel/types" "^2.0.0-alpha.3"
+
 "@parcel/reporter-cli@2.0.0-nightly.617+eabbbecf":
   version "2.0.0-nightly.617"
   resolved "https://registry.yarnpkg.com/@parcel/reporter-cli/-/reporter-cli-2.0.0-nightly.617.tgz#ac29e9f19aabc25552ce589a5a278eb1cc967ecf"
@@ -1869,10 +1876,30 @@
     react-refresh "^0.9.0"
     semver "^5.4.1"
 
+"@parcel/transformer-typescript-tsc@^2.0.0-alpha.3":
+  version "2.0.0-alpha.3"
+  resolved "https://registry.yarnpkg.com/@parcel/transformer-typescript-tsc/-/transformer-typescript-tsc-2.0.0-alpha.3.tgz#3753c10f34470d31fd35bc81a4d2c6ba70112022"
+  integrity sha512-KL3uKP6KXaN62CmfCgkNz3ki1AWyFdrdv01s+QKAkNTd6IViOZjrioHmcu/AXhcDhdwGfL1fvneMqjrNol6pTQ==
+  dependencies:
+    "@parcel/plugin" "^2.0.0-alpha.3"
+    "@parcel/ts-utils" "^2.0.0-alpha.3"
+
+"@parcel/ts-utils@^2.0.0-alpha.3":
+  version "2.0.0-alpha.3"
+  resolved "https://registry.yarnpkg.com/@parcel/ts-utils/-/ts-utils-2.0.0-alpha.3.tgz#d0e050970be3743d9175b85f8af7819e5c9a88fe"
+  integrity sha512-t8572ROIJU4QNVlvW8XhKZigMsKj68YmSGs/wglqsl9xBJJIHiw8HSPyQcDiUCiU1INORCSHAkemeVYUNKflYw==
+  dependencies:
+    nullthrows "^1.1.1"
+
 "@parcel/types@2.0.0-nightly.617+eabbbecf":
   version "2.0.0-nightly.617"
   resolved "https://registry.yarnpkg.com/@parcel/types/-/types-2.0.0-nightly.617.tgz#3348b042172b7d13a59eebc8f4156e6acc1aa9ff"
   integrity sha512-5bFLZQTJ4ipNBZAE+HTfHvF31AfS7coEJ35PWUsTil6e8oN9shbL5ylACPZHMxa3Ei/683PB354ea+dZFOh7Gw==
+
+"@parcel/types@^2.0.0-alpha.3":
+  version "2.0.0-alpha.3"
+  resolved "https://registry.yarnpkg.com/@parcel/types/-/types-2.0.0-alpha.3.tgz#b2911c0e3b7756b70cbfc79a432b464b41d214c1"
+  integrity sha512-n4c346lpwhEUFJ3Xv4DUAATLnAqdKkNfEqFW+bfnS8WFBl3bUlaJW4JqHYQ63enoEvMKoD5Rs9/WrhqZ71X8Dg==
 
 "@parcel/utils@2.0.0-nightly.617+eabbbecf":
   version "2.0.0-nightly.617"
