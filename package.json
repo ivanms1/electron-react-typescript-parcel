@@ -11,7 +11,7 @@
     "electron": "wait-on tcp:1234 && tsc && electron-forge start",
     "package": "yarn build && tsc && electron-forge package",
     "make": "yarn build && tsc && electron-forge make",
-    "publish": "yarn build && tsc && electron-forge publish",
+    "publish": "yarn build && electron-forge publish",
     "lint": "eslint --ext .ts ."
   },
   "keywords": [],
