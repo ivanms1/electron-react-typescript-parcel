@@ -15,14 +15,34 @@ const createWindow = async (): Promise<void> => {
   const mainWindow = new BrowserWindow({
     height: 600,
     width: 800,
+    show: false,
+    webPreferences: {
+      nodeIntegration: true,
+    },
   });
 
   if (isDev) {
-    await mainWindow.loadURL("http://localhost:1234");
-    mainWindow.webContents.openDevTools();
+    mainWindow.loadURL("http://localhost:1234");
   } else {
     await loadURL(mainWindow);
   }
+
+  mainWindow.webContents.on("did-finish-load", async () => {
+    if (!mainWindow) {
+      throw new Error('"mainWindow" is not defined');
+    }
+
+    if (isDev) {
+      mainWindow.webContents.openDevTools({ mode: "detach" });
+    }
+
+    if (process.env.START_MINIMIZED) {
+      mainWindow.minimize();
+    } else {
+      mainWindow.show();
+      mainWindow.focus();
+    }
+  });
 };
 
 // This method will be called when Electron has finished
