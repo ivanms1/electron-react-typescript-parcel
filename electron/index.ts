@@ -17,6 +17,7 @@ const createWindow = async (): Promise<void> => {
     width: 800,
     webPreferences: {
       nodeIntegration: true,
+      contextIsolation: false,
     },
   });
 
