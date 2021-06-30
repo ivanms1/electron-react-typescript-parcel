@@ -14,7 +14,12 @@
     "publish": "yarn build && electron-forge publish",
     "lint": "eslint --ext .ts ."
   },
-  "keywords": [],
+  "keywords": [
+    "electron",
+    "react",
+    "typescript",
+    "parcel"
+  ],
   "author": {
     "name": "Ivan Saldano",
     "email": "ivanms1@gmail.com"
