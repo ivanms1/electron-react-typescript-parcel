@@ -3,12 +3,11 @@
   "productName": "electron-react-typescript-template",
   "version": "1.0.0",
   "description": "Electron React boilerplate",
-  "main": "dist/index.js",
   "scripts": {
-    "start": "parcel src/index.html --out-dir parcel-dist",
-    "build": "parcel build src/index.html --out-dir dist/parcel-build --public-url ./",
+    "start": "parcel src/index.html --dist-dir parcel-dist",
+    "build": "parcel build src/index.html --dist-dir dist/parcel-build --public-url ./",
     "dev": "concurrently -k \"yarn start\" \"yarn:electron\"",
-    "electron": "wait-on tcp:1234 && tsc && electron .",
+    "electron": "wait-on tcp:1234 && tsc && electron dist/index.js",
     "make": "yarn build && tsc && electron-builder",
     "release": "yarn build && tsc && electron-builder --publish=always",
     "publish": "yarn build && electron-forge publish",
@@ -25,6 +24,9 @@
       "dist/**/*",
       "package.json"
     ],
+    "extraMetadata": {
+      "main": "dist/index.js"
+    },
     "directories": {
       "output": "./out"
     },
@@ -48,6 +50,7 @@
     "@babel/core": "^7.13.8",
     "@babel/preset-env": "^7.13.9",
     "@babel/preset-react": "^7.14.5",
+    "@parcel/transformer-sass": "2.0.0-beta.3.1",
     "@parcel/transformer-typescript-tsc": "^2.0.0-alpha.3",
     "@types/react": "^17.0.11",
     "@types/react-dom": "^17.0.8",
@@ -60,7 +63,8 @@
     "eslint": "^7.6.0",
     "eslint-plugin-import": "^2.20.0",
     "eslint-plugin-react": "^7.24.0",
-    "parcel-bundler": "1.12.5",
+    "parcel": "^2.0.0-beta.3.1",
+    "postcss": "^8.2.1",
     "postcss-modules": "3.2.2",
     "sass": "^1.35.1",
     "typescript": "^4.3.4",

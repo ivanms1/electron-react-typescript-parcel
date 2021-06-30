@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+:root {
+  --var-color: red;
+}
+
 #app {
   min-height: 100vh;
   min-width: 100vw;
