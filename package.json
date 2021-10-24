@@ -54,7 +54,7 @@
     "@babel/preset-env": "^7.14.8",
     "@babel/preset-react": "^7.14.5",
     "@parcel/transformer-typescript-tsc": "^2.0.0-alpha.3",
-    "@types/react": "^17.0.27",
+    "@types/react": "^17.0.31",
     "@types/react-dom": "^17.0.9",
     "@typescript-eslint/eslint-plugin": "^2.18.0",
     "@typescript-eslint/parser": "^2.18.0",
