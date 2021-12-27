@@ -64,7 +64,7 @@
     "electron-builder": "^22.14.5",
     "eslint": "^8.5.0",
     "eslint-plugin-import": "^2.25.3",
-    "eslint-plugin-react": "^7.27.1",
+    "eslint-plugin-react": "^7.28.0",
     "parcel-bundler": "1.12.5",
     "postcss-modules": "3.2.2",
     "sass": "^1.45.1",
