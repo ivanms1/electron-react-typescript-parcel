@@ -50,7 +50,7 @@
     }
   },
   "devDependencies": {
-    "@babel/core": "^7.16.5",
+    "@babel/core": "^7.17.2",
     "@babel/preset-env": "^7.16.5",
     "@babel/preset-react": "^7.16.5",
     "@parcel/transformer-typescript-tsc": "^2.0.1",
