@@ -52,7 +52,7 @@
   "devDependencies": {
     "@babel/core": "^7.16.5",
     "@babel/preset-env": "^7.16.5",
-    "@babel/preset-react": "^7.16.5",
+    "@babel/preset-react": "^7.16.7",
     "@parcel/transformer-typescript-tsc": "^2.0.1",
     "@types/react": "^17.0.39",
     "@types/react-dom": "^17.0.11",
