@@ -63,7 +63,7 @@
     "electron": "^17.1.0",
     "electron-builder": "^23.0.3",
     "eslint": "^8.14.0",
-    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-react": "^7.29.2",
     "parcel-bundler": "1.12.5",
     "postcss-modules": "3.2.2",
