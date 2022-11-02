@@ -2713,13 +2713,13 @@ concat-stream@~1.6.0:
     readable-stream "^2.2.2"
     typedarray "^0.0.6"
 
-concurrently@^7.3.0:
-  version "7.3.0"
-  resolved "https://registry.yarnpkg.com/concurrently/-/concurrently-7.3.0.tgz#eb45cdbc8df43da195f619aba218a980cae49184"
-  integrity sha512-IiDwm+8DOcFEInca494A8V402tNTQlJaYq78RF2rijOrKEk/AOHTxhN4U1cp7GYKYX5Q6Ymh1dLTBlzIMN0ikA==
+concurrently@^7.5.0:
+  version "7.5.0"
+  resolved "https://registry.yarnpkg.com/concurrently/-/concurrently-7.5.0.tgz#4dd432d4634a8251f27ab000c4974e78e3906bd3"
+  integrity sha512-5E3mwiS+i2JYBzr5BpXkFxOnleZTMsG+WnE/dCG4/P+oiVXrbmrBwJ2ozn4SxwB2EZDrKR568X+puVohxz3/Mg==
   dependencies:
     chalk "^4.1.0"
-    date-fns "^2.16.1"
+    date-fns "^2.29.1"
     lodash "^4.17.21"
     rxjs "^7.0.0"
     shell-quote "^1.7.3"
@@ -3043,10 +3043,10 @@ data-urls@^1.1.0:
     whatwg-mimetype "^2.2.0"
     whatwg-url "^7.0.0"
 
-date-fns@^2.16.1:
-  version "2.18.0"
-  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.18.0.tgz#08e50aee300ad0d2c5e054e3f0d10d8f9cdfe09e"
-  integrity sha512-NYyAg4wRmGVU4miKq5ivRACOODdZRY3q5WLmOJSq8djyzftYphU7dTHLcEtLqEvfqMKQ0jVv91P4BAwIjsXIcw==
+date-fns@^2.29.1:
+  version "2.29.3"
+  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.29.3.tgz#27402d2fc67eb442b511b70bbdf98e6411cd68a8"
+  integrity sha512-dDCnyH2WnnKusqvZZ6+jA1O51Ibt8ZMRNkDZdyAyK4YfbDwa/cEmuztzG5pk6hqlp9aSBPYcjOlktquahGwGeA==
 
 deasync@^0.1.14:
   version "0.1.21"
