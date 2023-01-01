@@ -62,7 +62,7 @@
     "concurrently": "^7.6.0",
     "electron": "^22.0.0",
     "electron-builder": "^23.6.0",
-    "eslint": "^8.26.0",
+    "eslint": "^8.31.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-react": "^7.31.10",
     "parcel-bundler": "1.12.5",
